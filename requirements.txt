@@ -1,0 +1,33 @@
+# FastAPI ve ASGI sunucusu
+fastapi==0.111.1
+uvicorn[standard]==0.23.2
+
+# PDF işleme
+PyMuPDF==1.23.1
+pdfminer.six==20221105
+
+# Vektör veritabanı
+qdrant-client==1.6.3
+
+# LLM ve embedding modelleri
+transformers==4.34.0
+sentence-transformers==2.2.2
+torch==2.3.0
+accelerate==0.22.0
+
+# Asenkron ve paralel işlemler
+aiohttp==3.9.5
+asyncio==3.4.3
+
+# Frontend ile iletişim
+python-multipart==0.0.6
+requests==2.32.0
+
+# Test ve geliştirme
+pytest==8.3.1
+pytest-asyncio==0.21.1
+rich==13.7.0
+
+# JSON ve veri işleme
+numpy==1.26.0
+pandas==2.1.1
